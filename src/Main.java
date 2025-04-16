@@ -18,6 +18,5 @@ public class Main {
         DateTimeFormatter formatter = DateTimeFormatter.ofPattern("M/dd/yyyy");
         LocalDate movieTime = LocalDate.parse(date,formatter);
         System.out.println(tickets + " tickets reserved for " + movieTime + " under " + name);
-
     }
 }
